@@ -1,0 +1,23 @@
+[
+    {
+      "image": "./img/logo/google.png",
+      "link": "https://google.com"
+    },
+    {
+        "image": "./img/logo/facebook.png",
+        "link": "https://facebook.com"
+    },
+    {
+        "image": "./img/logo/tiktok.png",
+        "link": "https://tiktok.com"
+    },
+    {
+        "image": "./img/logo/nimo.jpg",
+        "link": "https://nimo.tv"
+    },
+    {
+        "image": "./img/logo/douyin.png",
+        "link": "https://douyin.com"
+    }
+  ]
+  
