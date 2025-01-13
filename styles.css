@@ -45,4 +45,13 @@ body {
     transform: scale(1.1);
     box-shadow: 0 6px 15px rgba(255, 0, 0, 0.8);
   }
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+#text {
+    font-size: 4rem;
+    color: #FF5733;
+}
   
