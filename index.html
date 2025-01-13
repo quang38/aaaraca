@@ -3,13 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QUANG.DEV</title>
+  <title>QUANGDEV APP</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="app">
-    <h1 id="text">QUANG.DEV</h1>
-        <div id="button-container"></div>
+    <h1 id="text"></h1>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            // Thiết lập múi giờ Việt Nam (GMT+7)
+            const options = { timeZone: "Asia/Ho_Chi_Minh", hour12: false };
+            const timeString = now.toLocaleTimeString("vi-VN", options);
+            document.getElementById("text").textContent = timeString;
+        }
+
+        // Cập nhật thời gian mỗi giây
+        setInterval(updateTime, 1000);
+        updateTime(); // Gọi ngay để không bị trễ 1 giây đầu
+    </script>        <div id="button-container"></div>
   </div>
   <script src="script.js"></script>
 </body>
