@@ -18,6 +18,10 @@
     {
         "image": "./img/logo/douyin.png",
         "link": "https://douyin.com"
+    },
+    {
+        "image": "./img/logo/youtobe.jpg",
+        "link": "https://www.youtube.com"
     }
   ]
   
