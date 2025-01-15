@@ -22,6 +22,10 @@
     {
         "image": "./img/logo/youtobe.jpg",
         "link": "https://www.youtube.com"
+    },
+     {
+        "image": "./img/logo/CHAT_GPT.jpg",
+        "link": "https://chatgpt.com/"
     }
   ]
   
