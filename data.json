@@ -26,6 +26,10 @@
      {
         "image": "./img/logo/CHAT_GPT.jpg",
         "link": "https://chatgpt.com/"
+    },
+     {
+        "image": "./img/logo/deepseek.jpg",
+        "link": "https://chat.deepseek.com/"
     }
   ]
   
